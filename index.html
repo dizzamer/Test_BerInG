@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+
+<!-- head-->
+
+<head>
+    <!-- ОПРАВКА НА ПОЧТУ -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('7jSbM_uDtCObIp_dw');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('MYFORM').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('service_adggnc4', 'template_vgt5eoo', this, '7jSbM_uDtCObIp_dw')
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+    <!-- /ОПРАВКА НА ПОЧТУ -->
+
+    <link rel="shortcut icon" href="Images/image0001.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,
+	100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>БерИнГ | Информационные Технологии</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- СТИЛИ -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/skin-blue.css" rel="stylesheet">
+    <!-- СТИЛИ -->
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <!--[if lt IE 9]>
+<style>
+nav,.container,header#top-section,.carousel,.demobutton {display:none;}
+</style>
+<div id='browserWarning'>
+You are using an outdated version of Internet Explorer. Please, switch to
+<a style="color:red;" href='http://getfirefox.com'>Firefox</a>,
+<a style="color:red;" href='http://www.google.de/chrome'>Google Chrome</a>
+,
+<a style="color:red;" href='http://www.apple.com/safari/'>Safari</a>
+or the latest version of
+<a style="color:red;" href='http://windows.microsoft.com/en-US/internet-explorer/downloads/ie'>Internet Explorer</a>
+for a
+<span class='bold'>better</span>
+and
+<span class='bold'>safer</span>
+experience.
+</div>
+<![endif]-->
+</head>
+<!-- /head-->
+
+<body data-spy="scroll" data-target=".navbar">
+    <nav id="topnav" class="navbar navbar-fixed-top navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+            </div>
+            <!-- Навигационные ссылки для переключения -->
+        </div>
+        <div class="navbar-ex1-collapse menu">
+            <img src="Images/logo02.gif" alt="БерИнГ">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#top-section">Главная</a></li>
+                <li><a href="#Section-1">Виды доставляемой информации</a></li>
+                <li><a href="#Section-2">ИКС Регион</a></li>
+                <li><a href="#Section-3">ПК Мореограф</a></li>
+                <li><a href="#Section-4">Информация категории "Движение"</a></li>
+                <li><a href="#Section-5">Информация категории "Метео"</a></li>
+                <li><a href="#Section-6">Форма для заказа услуг<a></li>
+	</ul>
+</div>
+</nav>
+<!-- ГЛАВНАЯ -->
+	<header id="top-section" class="fullbg">
+	<div class="jumbotron">
+		<div id="carousel_intro" class="carousel slide fadeing">
+			<div class="carousel-inner">
+				<div class="active item" id="slide_1">
+					<div class="carousel-content">					
+						<div class="animated fadeInDownBig">
+							<h1>Добро пожаловать на официальный сайт ООО "БЕРИНГ"</h1>
+							<p class="slide_text">
+								Рабочее место оператора Службы Доставки Информации расположено на Центральном посту ИГПК порта на 41-ом причале
+								Рабочее место оснащено компьютером, мультифункциолнальным факсовым устройством, дополнительным
+								электронным факсом, тремя телефонными линиями.
+								Программное оснащение включает в себя специализированный АРМ оператора Службы Доставки Информации, 
+								почтовой программой, средствами рассылки электронной почтой. 
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item" id="slide_2">
+					<div class="carousel-content">					
+						<div class="animated fadeInDownBig">
+							<h1>Служба доставки информации</h1>
+							<p>(812) 326 0858 - телефон оператора</p>	
+							<p>(812) 346 1312  - дополнительный телефон<p>		
+						</div>
+					</div>
+				</div>
+				<div class="item" id="slide_3">
+					<div class="carousel-content">					
+						<div class="animated fadeInDownBig">
+							<h1>Режим работы</h1>	
+							<p class="slide_text">Служба функционирует круглосуточно, 24 часа в сутки, 7 дней в неделю в автоматическом режиме. 
+								Дополнительные сервисы, консультации специалистов, - осуществляются в рабочее время. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="left carousel-control" href="#carousel_intro" data-slide="prev" data-start="opacity: 0.6; left: 0%;" data-250="opacity:0; left: 5%;"><i class="fa fa-chevron-left"></i></button>
+		<button class="right carousel-control" href="#carousel_intro" data-slide="next" data-start="opacity: 0.6; right: 0%;" data-250="opacity:0; right: 5%;"><i class="fa fa-chevron-right"></i></button>
+	</div>
+	<div class="inner-top-bg">
+	</div>
+	</header>
+<!-- / ГЛАВНАЯ -->
+		<!--  СЕКЦИЯ-1 (Виды информации)-->
+		<section id="Section-1" class="fullbg color-white">
+			<div class="section-divider">
+			</div>
+			<div class="container">
+			<div class="row">
+				<div class="page-header text-center sm-12 lg-12 animated fade">
+					<h1>Виды доставляемой информации</h1>
+					<p class="lead">
+						Сводная таблица рассылок и сервисов по портам представлена ниже
+						<table border="1" align="center">
+							<tr>
+							  <td></td>
+							  <td>Рассылки</td>
+							  <td>С-Пб</td>
+							  <td>Приморск</td>
+							  <td>Выборг</td>
+							  <td>Усть-Луга</td>
+							  <td>Высоцк</td>
+							  <td>Калининград</td>
+							  <td>ВФЗ</td>
+							</tr>
+							<tr>
+							  <td rowspan="8">Движение</td>
+							  <td>СГДС</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td></td>
+							</tr>
+							<tr>
+							  <td>СС</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td></td>
+							</tr>
+							<tr>
+							  <td>Приказы о распоряжении</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td></td>
+							</tr>
+							<tr>
+							  <td>ПРИП</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>НАВИП</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Сводка ледовых операций</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Дисп. Ледоколы</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Сообщения о движении судов</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td rowspan="12">Метео</td>
+							  <td>Метеопрогноз 72 часа</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td></td>
+							</tr>
+							<tr>
+							  <td>Метеопрогноз 120 часов</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td></td>
+							</tr>
+							<tr>
+							  <td>Прогноз уровня воды</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td></td>
+							</tr>
+							<tr>
+							  <td>Штормовые предупреждения</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Туман видимость < 1000 м</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Понижение уровня воды < 70 см</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Прогноз ледовый на месяц</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Ледовая карта</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Погода за прошедшие сутки</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Справка об осадках</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Статистика метеостанции</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Статистика мареографов</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td rowspan="2">Мареограф</td>
+							  <td>Уровень on-line</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td></td>
+							</tr>
+							<tr>
+							  <td>Метеостанция on-line</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td class="green"></td>
+							  <td></td>
+							  <td></td>
+							  <td></td>
+							</tr>
+							<tr>
+							  <td>Регион</td>
+							  <td class="">Движение судов on-line</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							</tr>
+							<tr>
+							  <td>Прочее</td>
+							  <td class="">По индивидуальному запросу</td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							  <td class="green"></td>
+							</tr>
+						  </table>
+					</p>
+				</div>
+			</div>
+				<div class="row animated fadeInUpNow">
+					<div class="sm-12 lg-12">
+						<span>
+							Информация делится на следующие группы:
+							<ul>
+							<li>Географически.  Выделяются следующие локации: Санкт-Петербург,  Приморск, Выборг, Усть-Луга, Высоцк, Юго-Восток Южной Балтики 
+								(Калининград), Восточная часть Финского Залива  (ВФЗ)
+							</li>
+							По типам информации. Делится на следующие группы:
+							<li>Движение. Информация о дислокации судов, а также приказы и распоряжения по портам.</li>
+							<li>Метео.  Информация, касающаяся гидрометеорологической обстановки</li>
+							<li>Мареограф. Программа для отображения on-line информации по уровням воды, прогноза по уровням воды и данных метеостанций.</li>
+							<li>Регион. Программа для отображения в реальном масштабе времени дислокации судов в зоне ответственности ФГБУ «АМП Балтийского моря» 
+								и далее на запад ориентировочно до Датских проливов. </li>
+							<li>Прочее. Возможна доставка информации по индивидуальным запросам, выходящим за рамки типового Договора.</li>
+							</ul>
+						</span>
+						Расшифровка условных наименований информации из группы движение:
+						<li>СС, Суточная Сводка,  Стоянка Судов у причалов и на рейдах порта по состоянию на 08:00, включающая в себя  информацию о движении судов
+							в морском порту Санкт-Петербург за прошедшие сутки</li>
+						<li>СГДС, Суточный График заявок Движения Судов с 15:00 текущих суток по 15:00 следующих суток, утверждаемый Капитаном порта.</li>
+						<li>Приказы и распоряжения ФГУ АМП  Санкт-Петербург по факту их поступления из Секретариата ФГБУ АМП Балтийского моря.</li>
+						<li>ПРИП, ПРИбрежные Предупреждения</li>
+						<li>НАВИП- НАВИгационные Предупреждения</li>
+						<li>Сводка ледовых операций, Дисп. ледоколы. Включают в себя положение ледоколов и судов по состоянию на 00:00, 04:00, 08:00, 12:00, 16:00, 
+							20:00 и сводку месторасположения ледоколов, ледовый бюллетень</li>
+						<li>Сообщения о движении судов формируются в процессе сопровождения судна в службах АМП Балтийского моря.</li><br>
+						Расшифровка условных названий метеопрогнозов и частота их рассылки приведена в таблице. Следует отметить, что в разных локациях может 
+						быть разный состав справок. Например, справка о погоде за прошедшие сутки Высоцк включает в себя только уровень воды. <br>
+						<table border="1">
+							<tr>
+							  <td>Вид предоставляемой информации</td>
+							  <td>Периодичность в срок представления</td>
+							  <td>Число за месяц</td>
+							</tr>
+							<tr>
+							  <td colspan="3">
+								Среднесрочные и краткосрочные прогнозы погоды
+							  </td>
+							</tr>
+							<tr>
+							  <td>
+								Метеопрогноз по акватории порта Приморск на 72 часа (с указанием
+								высоты волны)
+							  </td>
+							  <td>Понедельник, среда, пятница</td>
+							  <td>13</td>
+							</tr>
+							<tr>
+							  <td>
+								Метеопрогноз по восточной части Финского залива на 120 часов (без
+								указания высоты волны)
+							  </td>
+							  <td>Ежедневно</td>
+							  <td>30</td>
+							</tr>
+							<tr>
+							  <td>
+								Метеопрогноз по Лужской Губе на 72 часа (с указанием высоты волны)
+							  </td>
+							  <td>Ежедневно</td>
+							  <td>30</td>
+							</tr>
+							<td colspan="3">Краткосрочные гидрологические прогнозы:</td>
+							<tr>
+							  <td>Прогноз уровня в Санкт-Петербурге на 12 часов (ГП Горный)</td>
+							  <td>2 раза в сутки</td>
+							  <td>61</td>
+							</tr>
+							<tr>
+							  <td>Прогноз уровня в Невской губе на 12 часов (по УП Кронштадт)</td>
+							  <td>2 раза в сутки</td>
+							  <td>61</td>
+							</tr>
+							<tr>
+							  <td>Прогноз уровня по порту Приморск на 12 часов</td>
+							  <td>2 раза в сутки</td>
+							  <td>61</td>
+							</tr>
+							<tr>
+							  <td>Прогноз уровня по порту Выборг на 12 часов</td>
+							  <td>2 раза в сутки</td>
+							  <td>61</td>
+							</tr>
+							<tr>
+							  <td>Уровень воды</td>
+							</tr>
+							<tr>
+							  <td>
+								В программе МАРЕОГРАФ по уровенным постам Горный институт, Морской
+								порт, Кронштадт, Усть-Луга, Приморск, Высоцк
+							  </td>
+							  <td>В режиме реального времени</td>
+							  <td>непрерывно</td>
+							</tr>
+							<tr>
+							  <td colspan="3">Предупреждения о неблагоприятных явлениях погоды:</td>
+							</tr>
+							<tr>
+								<td colspan="3">Усиление скорости ветра 12 м/с и более у земли</td>
+							</tr>
+							  <td>По восточной части Финского залива</td>
+							  <td colspan="2" >
+								по мере составления при угрозе возникновения на русском и английском
+								языках
+							  </td>
+							</tr>
+							<tr>
+							  <td>По акватории порта Выборг</td>
+							  <td colspan="2" >по мере составления при угрозе возникновения
+								 на русском и английском языках
+							  </td>
+							</tr>
+							<tr>
+							  <td>По акватории порта Приморск</td>
+							  <td colspan="2" >по мере составления при 
+								угрозе возникновения на русском и английском языках
+							  </td>
+							</tr>
+							<tr>
+							  <td>Прогноз уровня по порту Выборг на 12 часов</td>
+							  <td colspan="2">2 раза в сутки</td>
+							</tr>
+							<tr>
+								<td colspan="3">Усиление скорости ветра 12 м/с и более на высоте 25 м</td>
+							</tr>
+							<tr>
+								<td>По порту Санкт-Петербург</td>
+								<td colspan="2">по мере составления при 
+								  угрозе возникновения на русском и английском языках
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3">Туман при видимости менее 1000м</td>
+							</tr>
+							<tr>
+								<td>По восточной части Финского залива</td>
+								<td colspan="2" >по мере составления при 
+								  угрозе возникновения на русском и английском языках
+								</td>
+							</tr>
+							<tr>
+								<td>По порту Санкт-Петербург</td>
+								<td colspan="2" >по мере составления при 
+								  угрозе возникновения на русском и английском языках
+								</td>
+							</tr>
+							<tr>
+								<td>По акватории порта Выборг</td>
+								<td colspan="2" >по мере составления при 
+								  угрозе возникновения на русском и английском языках
+								</td>
+							</tr>
+							<tr>
+								<td>По акватории порта Приморск</td>
+								<td colspan="2" >по мере составления при 
+								  угрозе возникновения на русском и английском языках
+								</td>
+							</tr>
+							<tr>
+								<td>По акватории Лужской губы</td>
+								<td colspan="2" >по мере составления при 
+								  угрозе возникновения на русском и английском языках
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3">Понижение уровня воды 70 см и ниже относительно 
+								  «нуля» Кронштадтского футштока
+								</td>
+							</tr>
+							<tr>
+								<td>По Невской губе</td>
+								<td colspan="2" >по мере составления при 
+								  угрозе возникновения на русском и английском языках
+								</td>
+							</tr>
+							<tr>
+								<td>По порту Выборг</td>
+								<td colspan="2" >по мере составления при 
+								  угрозе возникновения на русском и английском языках
+								</td>
+							</tr>
+							<tr>
+								<td>По порту Приморск</td>
+								<td colspan="2" >по мере составления при 
+								  угрозе возникновения на русском и английском языках
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3">Ледовая информация
+								</td>
+							</tr>
+							<tr>
+								<td>Прогноз ледовой обстановки на месяц</td>
+								<td>30 ноября, 29 декабря, 29 января,
+									26 февраля, 30 марта              
+								</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Ледовая карта Финского залива в растровом и векторном
+									форматах
+								</td>
+								<td>Понедельник, среда, пятница</td>
+								<td>13</td>
+							</tr>
+							<tr>
+								<td colspan="3">Фактическая погода за прошедшие сутки 
+								  (температура, наличие осадков, скорость и направление ветра)
+								</td>
+							</tr>
+							<tr>
+								<td>По данным «Невская-Порт»</td>
+								<td>1 раз в сутки</td>
+								<td>30,5</td>
+							</tr>
+							<tr>
+								<td>По данным «Приморск»</td>
+								<td>1 раз в сутки</td>
+								<td>30,5</td>
+							</tr>
+							<tr>
+								<td colspan="3">Справка о среднем количестве атмосферных осадков за 
+								  предшествующий квартал с разбивкой по месяцам
+								</td>
+							</tr>
+							<tr>
+								<td>г. Санкт-Петербург</td>
+								<td>до 15 января<br>
+									до 05 апреля<br>
+									до 05 июля<br>
+									до 05 октября              
+								</td>
+								<td>1 раз в квартал</td>
+							</tr>
+						  </table>
+						<p align="justify">
+						<br>Спектр возможной информации широк, может включать как текущие данные, статистическую информацию,   спутниковые снимки, консультационные услуги.
+						Рассылка уточненных справок по погоде. В случае отличия фактических погодных условий от стандартно-отчетных в зоне действия метеостанций 
+						могут быть высланы уточненные справки о погоде за прошедшие сутки
+						Предоставление статистических погодных данных по многолетним гидрометеонаблюдениям, как-то:  изменения уровней воды, скорости и 
+						направления ветра, осадков и ряда других параметров. 
+						</p>  
+					</div>
+			</div>
+			</section>
+		<!-- Секция-2 (Регион) -->
+		<section id="Section-2" class="fullbg color-white">
+			<div class="section-divider">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="page-header text-center sm-12 lg-12 animated fade">
+						<h1>ИКС Регион</h1>
+						<p class="lead">
+							Информация о продукте
+						</p>
+					</div>
+				</div>
+				<div class="row animated fadeInUpNow">
+					<div class="sm-12 lg-12">
+						<p align="justify">
+							Информационно-картографическая система «РЕГИОН» представляет собой специальную программу, запускаемую на компьютере конечного пользователя, и отображающую текущую расстановку судов в регионе от порта Санкт-Петербург и далее на запад по Балтийскому мору
+							до Датских проливов. Информация по движению судов поступает из нескольких источников информации, причем одно и тоже судно может быть отображено несколько раз, в соответствии с его присутствием в нескольких источниках информации.
+							Для получения информации необходим доступ в Интернет. Программа поставляется через облачные сервисы, комплектуется ключами защиты по числу рабочих мест и устанавливается представителем ООО «БЕРИНГ». Примеры копий экранов картографической
+							системы приведены ниже. Картографическая основа актуализирована в большей части зон интенсивного судоходства и стоянки\дислокации судов восточной части финского залива. В случае необходимости могут быть установлены дополнительные
+							карты.
+						</p>
+					<p>
+						<figure>
+						<img src="images/image002.jpg" width="540" height="350" alt="Общий вид">
+						<figcaption>Общий вид</figcaption>
+						</figure>
+						<figure>
+							<img src="images/image003.jpg" width="540" height="350" alt="Пример картографической основы">
+							<figcaption>Пример картографической основы</figcaption>
+						</figure>							
+						<figure>
+							<img src="images/image004.jpg" width="540" height="350" alt="Информация по судну">
+							<figcaption>Информация по судну</figcaption>
+						</figure>							
+						<figure>
+							<img src="images/image005.jpg" width="540" height="350" alt="Зона покрытия">
+							<figcaption>Зона покрытия</figcaption>
+						</figure>	
+                    </p>
+					
+        </div>
+        </div>
+        </div>
+        </section>
+        <!-- СЕКЦИЯ-3 (Мареограф) -->
+        <section id="Section-3" class="fullbg color-white">
+            <div class="section-divider">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="page-header text-center sm-12 lg-12 animated fade">
+                        <h1>ПК "Мореограф"</h1>
+                        <p class="lead">
+                            Видео работы программы мареограф можно посмотреть на <a href="тут">https://youtu.be/CqndUT1JZR4</a>
+                    </p>
+        </div>
+        </div>
+        <div class="row testimonials animated fadeInUpNow">
+            <div class="sm-12 lg-12">
+                <p align="justify">
+                    Программный комплекс мареограф служит для предоставления в графической форме информации пользователю об уровнях воды (прошлое, настоящие, прогноз) а также данных метеостанций. Краткое описание программы и инструкция по установке приведена отдельным документом.
+                </p>
+                <p align="center">
+                    <img src="images/image006.jpg" width="540" height="350" alt="Окно программы Мареограф">
+                    <p align="center">Окно программы Мареограф</p>
+                </p>
+                <p align="justify">
+                    Спектр возможной информации широк, может включать как текущие данные, статистическую информацию, спутниковые снимки, консультационные услуги. Рассылка уточненных справок по погоде. В случае отличия фактических погодных условий от стандартно-отчетных в
+                    зоне действия метеостанций могут быть высланы уточненные справки о погоде за прошедшие сутки Предоставление статистических погодных данных по многолетним гидрометеонаблюдениям, как-то: изменения уровней воды, скорости и направления
+                    ветра, осадков и ряда других параметров. Также предоставляются сведения о погодных условиях за определенный период времени.
+                </p>
+                <p align="center">
+                    <img src="images/image007.jpg" width="540" height="350" alt="Пример спутниковой информации">
+                    <p align="center">Пример спутниковой информации</p>
+                </p>
+            </div>
+        </div>
+        </div>
+        </section>
+        <!-- СЕКЦИЯ-4 (Движение) -->
+        <section id="Section-4" class="fullbg color-white">
+            <div class="section-divider">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="page-header text-center sm-12 lg-12 animated fade">
+                        <h1>Информация категории "Движение"</h1>
+                        <p class="lead">
+                            Информация представлена ниже
+                        </p>
+                    </div>
+                </div>
+                <div class="row animated fadeInUpNow">
+                    <div class="sm-12 lg-12">
+                        <p align="justify">
+                            Суточная сводка о стоянке и движении судов в морском порту "Санкт-Петербург" по состоянию с 8 утра прошлых суток и на 8 утра текущих суток, рассылается в 8 утра на заявленный e-mail. Суточный график заявок движения судов с 15:00 текущих суток по 15:00
+                            следующих суток, рассылается сразу после получения подписанного Капитаном порта экземпляра (ориентировочно – в период с 13:30 по 14:30).
+                        </p>
+                        <p align="justify">
+                            Рассылка осуществляется по e-mail. Приказы и распоряжения ФГУ АМП Санкт-Петербург, Рассылка официальных приказов и распоряжений ФГУ АМП Санкт-Петербург, непосредственно касающихся обеспечения деятельности и бизнеса в зоне ответственности ФГУ АМП Санкт-Петербург.
+                            Рассылка осуществляется посредством e-mail. Следует учесть, что размер e-mail может достигать нескольких мегабайт.
+                        </p>
+                        <p align="justify">
+                            Дополнительно рассылаются сообщения ПРИП (ПРИбрежные Предупреждения, навигационные предупреждения по прибрежным районам плавания) и корректура обязательных постановления по Порту Санкт-Петербург. Сообщения ПРИП, НАВИП приходят в виде вложенных текстовых
+                            файлов.
+                        </p>
+                        <p align="center">
+                            <img src="images/image008.png" width="800" height="350" alt="Оперативно навигационная Информация">
+                            <p align="center">Оперативно навигационная Информация</p>
+                        </p>
+                        <p align="justify">Суточная сводка Усть-Луга, Приморск рассылается в виде стандартного e-mail письма с вложением pdf файла.</p>
+                        <p align="center">
+                            <img src="images/image009.png" width="800" height="350" alt="Суточная сводка">
+                            <p align="center">Суточная сводка</p>
+                        </p>
+                        <p align="justify">СГДС Усть-Луга рассылается по мере формирования и внесения изменений</p>
+                        <p align="center">
+                            <img src="images/image011.png" width="800" height="350" alt="Плановый день">
+                            <p align="center">Плановый день</p>
+                        </p>
+                        <img src="" alt=""> Сводка ледовых операция рассылается по мере поступления и содержит перечень позиций ледоколов, текущее состояние, выполняемые работы и планы. Дисп. ледоколы Сообщения приходят в виде электронных писем по факту
+                        поступления.
+                        <figure>
+                            <img src="images/image012.png" width="540" height="350" alt="Общий вид">
+                            <figcaption>Общий вид</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/image013.png" width="540" height="350" alt="Общий вид">
+                            <figcaption>Общий вид</figcaption>
+                        </figure>
+                        <p align="center">
+                            <img src="images/image014.png" width="800" height="350" alt="Плановый день">
+                            <p align="center">Плановый день</p>
+                        </p>
+                        <p>
+                            Сообщения о движении судов Сообщения о движения судов формируются по заявке агентирующей компании или владельца причалов и содержат ряд параметров по текущему состоянию судна.
+                        </p>
+                        <figure>
+                            <img src="images/image015.png" width="540" height="350" alt="Общий вид">
+                            <figcaption>Общий вид</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/image016.png" width="540" height="350" alt="Общий вид">
+                            <figcaption>Общий вид</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- СЕКЦИЯ-5 (Метео) -->
+        <section id="Section-5" class="fullbg color-white">
+            <div class="section-divider">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="page-header text-center sm-12 lg-12 color-white animated fade">
+                        <h2>Информация категории "Метео"</h2>
+                        <p class="lead">
+                            Информация предоставления ниже
+                        </p>
+                    </div>
+                </div>
+                <div class="row animated fadeInUpNow">
+                    <div class="sm-12 lg-12">
+                        <p align="justify">
+                            Блок метеорологических, синоптических и гидрологических данных является существенной частью информационного пакета СДИ «БЕРИНГ» и состоит из следующих рассылок. Метеопрогноз 72 часа (трехсуточный)
+                        </p>
+                        <p align="justify">
+                            Трехсуточный прогноз рассылается по регионам Санкт-Петербург (понедельник среда пятница, с указанием высоты волны) , Приморск (понедельник среда пятница), Усть-Луга (ежедневно, с указанием высоты волны), Калининград (понедельник среда пятница, с указанием
+                            высоты волны).
+                        </p>
+                        <p align="center">
+                            <img src="images/image018.png" alt="">
+                        </p>
+                        Метеопрогноз 120 часов Метеопрогноз 120 часов по восточной части финского залива рассылается раз в сутки. Перечень информации в прогнозе представлен в таблице.
+                        <p align="center">
+                            <img src="images/image019.png" alt="">
+                        </p>
+                        <p align="justify">
+                            Прогноз уровня воды. Двенадцатичасовой прогноз уровня воды по Санкт-Петербургу (ГП Горный и УП Кронштадт) и Приморску рассылается в 09 часов и в 21 час. Также эта информация присутствует в программном комплексе МАРЕОГРАФ и отображается on-line.
+                        </p>
+                        <p align="center">
+                            <img src="images/image020.png" alt="">
+                        </p>
+                        <p align="justify">
+                            Штормовые предупреждения туман (видимость), понижение уровня воды Штормовые предупреждения, туман (видимость), понижение уровня воды (и отмена) рассылаются по факту поступления в СДИ «БЕРИНГ». Также эти сообщения дублируются на английском языке.
+                        </p>
+                        <figure>
+                            <img src="images/image027.png" width="540" height="350" alt="Общий вид">
+                            <figcaption>Общий вид</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/image021.png" width="540" height="350" alt="Общий вид">
+                            <figcaption>Общий вид</figcaption>
+                        </figure>
+                        <P>
+                            Погода за прошедшие сутки Погода за прошедшие сутки рассылается ежедневно по Приморску, Санкт-Петербургу (по данным МГ-II «Невская-порт»), Высоцку, Усть-Луге и Ломоносову.
+                        </P>
+                        <p align="center">
+                            <img src="images/image022.png" alt="">
+                        </p>
+                        <p>
+                            Таблица уровня воды в портах Санкт-Петербург и Кронштадт Таблица уровня воды в портах Санкт-Петербург и Кронштадт за последние сутки (рассылается ежедневно, в 08 утра)
+                        </p>
+                        <p align="center">
+                            <img src="images/image023.png" alt="">
+                        </p>
+                        <p align="justify">
+                            Справка об осадках Справка об осадках предоставляется помесячно.
+                        </p>
+                        <p align="center">
+                            <img src="images/image024.png" alt="">
+                        </p>
+                        <img src="" alt=""> Статистика метеостанций и мареографов
+                        <ul>
+                            <li>Уровень воды в см </li>
+                            <li>Давление в мм.рт.ст.</li>
+                            <li>Влажность, %</li>
+                            <li>Температура воздуха, С</li>
+                            <li>Направление ветра, градусы (данные по ветру выдаются усредненное по двум датчикам)</li>
+                            <li>Скорость ветра на момент измерений, м/сек</li>
+                            <li>Скорость ветра на момент измерений, максимальная за 30 секунд, м/сек</li>
+                            Каждая такая рассылка содержит набор данных за прошедшие трое суток с интервалом один час. В настоящий момент такой пакет информации включает в себя четыре e-mail сообщения, следующего типа:
+                            <li>Уровень воды по данным мареографов Кронштадт, Порт, Горный, Усть-Луга, Приморск, Высоцк-Угольный – совмещенная таблица, присылаемая одним письмом </li>
+                            <li>Статистику метеостанций Санкт-Петербург, Усть-Луга, Приморск в виде трех таблиц в трех e-mail </li>
+                        </ul>
+                        <figure>
+                            <img src="images/image025.png" width="540" height="350" alt="Общий вид">
+                            <figcaption>Общий вид</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/image026.png" width="540" height="350" alt="Общий вид">
+                            <figcaption>Общий вид</figcaption>
+                        </figure>
+                        Ледовая информация включает в себя несколько информационных блоков:
+                        <ul>
+                            <li>положение ледоколов и судов по состоянию на 00:00, 04:00, 08:00, 12:00, 16:00, 20:00</li>
+                            <li>сводку месторасположения ледоколов</li>
+                            <li>ледовый бюллетень </li>
+                            <li>растровые и векторные ледовые карты </li>
+                            <li>прогноз ледовый на месяц </li>
+                        </ul>
+                        <p align="center">
+                            <img src="images/image027.jpg" width="800" height="500" alt="Плановый день">
+                            <p align="center">План</p>
+                        </p>
+                        <p align="center">
+                            <img src="images/image028.jpg" width="500" height="500" alt="Плановый день">
+                            <p align="center"></p>
+                        </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- СЕКЦИЯ-6 (форма для заказа)-->
+        <section id="Section-6" class="fullbg">
+            <div class="section-divider">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="page-header text-center sm-12 lg-12 color-white animated fade">
+                        <h2>Свяжитесь с нами</h2>
+                        <p class="lead">
+                            Заполните форму для заказа услуг и мы с вами свяжемся
+                        </p>
+                    </div>
+                </div>
+                <div class="row animated fadeInUpNow">
+                    <div class="sm-12 lg-12">
+                        <form id="MYFORM">
+                            <div>Единые номера?
+                                <label for="" class="check">
+									<input type="radio" name="phones" value="Да">
+									Да
+								</label>
+                                <label for="" class="check">
+									<input type="radio" name="phones" value="Нет">
+									Нет
+								</label>
+                            </div>
+                            <label for=""><span>Адреса e-mail</span> <input name="emails" type="email"></label>
+                            <label for=""><span>E-mail представителя Заказчика для согласования работы СДИ «БЕРИНГ» </span><input name="email_z" type="email"></label>
+                            <label for=""><span>E-mail технического специалиста (обновление ключей защиты и т.д.) </span><input name="email_t" type="email"></label>
+                            <label for=""><span>E-mail бухгалтерии (для рассылки копий платежных документов и т.д.)</span> <input name="email_b" type="email"></label>
+                            <label for=""><span>Дополнительные e-mail для рассылки служебной информации</span> <input name="email_d" type="email"></label>
+                            <fieldset>
+                                <legend>Юридичексое лицо</legend>
+                                <label for=""> 
+								<span>
+									Наименование организации
+								</span>
+									<input name="name_org" type="text">
+								</label>
+                                <label for="">
+									<span>
+										Почтовый адрес
+									</span>
+									<input name="email_as" type="text">
+								</label>
+                                <label for="">
+									<span>
+										ИНН
+									</span>
+									<input name="inn" type="text">
+								</label>
+                                <label for="">
+									<span>
+										КПП
+									</span>
+									<input name="kpp" type="text">
+								</label>
+                                <label for="">
+									<span>
+										ОГРН
+									</span>
+									<input name="ogrn" type="text">
+								</label>
+                                <label for="">
+									<span>
+										Наименование банка 
+									</span>
+									<input name="na_bank" type="text">
+								</label>
+                                <label for="">
+									<span>
+										Расчетный счет
+									</span>
+									<input name="r_s" type="text">
+								</label>
+                                <label for="">
+									<span>
+										Корр. счет
+									</span>
+									<input name="cor_s" type="text">
+								</label>
+                                <label for="">
+									<span>
+										БИК
+									</span>
+									<input name="bik" type="text">
+								</label>
+                                <label for="">
+									<span>
+										ОКОНХ, ОКВЭД
+									</span>
+									<input name="oh_od" type="text">
+								</label>
+                                <label for="">
+									<span>
+										ОКПО
+									</span>
+									<input name="okpo" type="text">
+								</label>
+                                <label for="">
+									<span>
+										Фамилия  Директора (подписывающего договор и прочие документы)
+									</span>
+									<input name="sur_d" type="text">
+								</label>
+                                <label for="">
+									<span>
+										Должность
+									</span>
+									<input name="post" type="text">
+								</label>
+                                <label for="">
+									<span>
+										Действующий на основании
+									</span>
+									<input name="d_n_o" type="text" value="Устава">
+								</label>
+                                <label for="" class="checkbox">
+									<input name="cx_1" type="checkbox"> <span>Установка системы РЕГИОН </span>
+									<div class="info">Должен быть обеспечен доступ к IP–адресу внешнего сервера РЕГИОН 83.68.34.57 по порту 1433. Внешний IP адрес, 
+										с которого осуществляется доступ к серверу РЕГИОН: <input name="vn_reg" type="text" placeholder="_____._____._____._____."> 
+										Этот адрес необязательно должен быть у компьютера, на котором планируется установка картографической системы, это тот адрес, с которого будут приходить запросы на 83.68.34.57
+										Для проверки адреса рекомендуется воспользоваться страницей сайта: myip.ru 
+										В открывшейся странице будет отображен следующий текст: «Ваш IP-адрес XXX.XXX.XXX.XXX.», где и будет указан Ваш IP. 
+										В случае если у Вас выделенная линия Интернета, то это и будет искомым адресом. Если у Вас модемное соединение, мобильный интернет и т.д. 
+										 – то обратитесь за консультацией к Вашему провайдеру или техническому специалисту. 
+										Также необходимо учесть, что рассылка осуществляется с обратным адресом service@beringltd.com 
+										Важно! В любом случае, проконсультируйтесь с Вашим системным администратором! 
+										</div>
+								</label>
+                                <label for="" class="checkbox">
+									<input name="cx_2" type="checkbox"> <span>Рассылка № 1  «Информации по изменению состояния судна»</span>
+									<div class="info">Рассылка осуществляется по e-mail. Информация передаётся в заголовке (subject) сообщения.  
+										Тип признак фильтрации судов: <input name="Ag_comp" type="text" value="Агентирующая компания">
+										Значение признака фильтрации судов: <input name="n_comp" type="text" placeholder="Наименование компании">
+										Адреса e-mail (через запятую): <input name="email_11" type="text" placeholder="xxxxxx@xxxxx.xx">								
+										</div>
+								</label>
+                                <label for="" class="checkbox">
+									<input name="cx_3" type="checkbox"> <span>Информация метеостанции и мареографов </span> 
+									<div class="info">Информация с метеостанции и мареограф рассылается по e-mail в автоматическом режиме. 
+										Каждое рассылаемое сообщение содержит информацию на момент формирования и трехсуточную статистику с часовым интервалом.
+										Адреса e-mail (через запятую):<input name="email_12" type="text" placeholder="xxxxxx@xxxxx.xx">
+										Интервал между рассылками: <input name="time" type="text" placeholder="часы, от 1 до 255">
+										</div>
+								</label>
+                                <label for="" class="checkbox">
+									<input name="cx_4" type="checkbox"> <span>Рассылка № 2  «Суточная Сводка»</span>
+									<div class="info">Рассылка сводки осуществляется в стандартном режиме в интервал времени от 8.00 до 8.20 по e-mail. 
+										Адреса e-mail (через запятую): <input name="email_21" type="text" placeholder="xxxxxx@xxxxx.xx">
+										</div>
+								</label>
+                                <label for="" class="checkbox">
+									<input name="cx_5" type="checkbox"> <span>Рассылка № 3 «СГДС»</span>
+									<div class="info">Рассылка СГДС осуществляется в стандартном режиме в интервале от 13 до 16 часов, по факту поступления. 
+										Адреса e-mail (через запятую): <input name="email_31" type="text" placeholder="xxxxxx@xxxxx.xx">
+										</div>
+								</label>
+                                <label for="" class="checkbox">
+									<input name="cx_6" type="checkbox"> <span>Рассылка №4  «Ледовая» (кроме ДИСП-Ледоколы)</span>
+									<div class="info">Прогностическая ледовая информация, ледовые бюллетени, растровые и векторные ледовые карты и другая информация (кроме ДИСП-Ледовколы)
+										Адреса e-mail (через запятую): <input name="email_41" type="text" placeholder="xxxxxx@xxxxx.xx">
+										</div>
+								</label>
+                                <label for="" class="checkbox">
+									<input name="cx_7" type="checkbox"> <span>Рассылка №5  «Ледовая ДИСП Ледоколы»</span>
+									<div class="info">Положение ледоколов согласно ДИСП по факту поступления (каждые 4 часа, начинрая с ноля часов).
+										Адреса e-mail (через запятую): <input name="email_51" type="text" placeholder="xxxxxx@xxxxx.xx">
+										</div>
+								</label>
+                                <label for="" class="checkbox">
+									<input name="cx_8" type="checkbox"> <span>Рассылка №7  «Постановления Распоряжения Санкт-Петербург» </span>
+									<div class="info">Помимо собственно приказов и распоряжений, высылается другая информация общего характера, в том числе и навигационная. Рассылаются по факту поступления.
+										Адреса e-mail (через запятую): <input name="email_71" type="text" placeholder="xxxxxx@xxxxx.xx">
+										</div>
+								</label>
+                                <label for="" class="checkbox">
+									<input name="cx_9" type="checkbox"> <span>Рассылка №8  «Метео общая» </span>
+									<div class="info">Рассылается прогностическая информация, фактическая, справки о погоде за прошлые сутки, прогнозы уровней воды и другая информация.
+										Адреса e-mail (через запятую): <input name="email_81" type="text" placeholder="xxxxxx@xxxxx.xx">
+										</div>
+								</label>
+                                <label for="" class="checkbox">
+									<input name="cx_10" type="checkbox"> <span>Рассылка №9  «Рассылки Приморск»</span>
+									<div class="info">Рассылается информация, которая касается порта Приморск, в том числе и информация по погоде, и суточные сводки и СГДС и другая информация.
+										Адреса e-mail (через запятую): <input name="email_91" type="text" placeholder="xxxxxx@xxxxx.xx">
+										</div>
+								</label>
+                                <label for="" class="checkbox">
+									<input name="cx_11" type="checkbox"> <span>Рассылка №10  «Рассылки Усть-Луга»</span>
+									<div class="info">Рассылается информация, которая касается порта Усть-Луга, в том числе и информация по погоде, и суточные сводки и СГДС и другая информация.
+										Адреса e-mail (через запятую): <input name="email_101" type="text" placeholder="xxxxxx@xxxxx.xx">
+										</div>
+								</label>
+                                <fieldset>
+                                    <legend>
+                                        Ответственное лицо по техническим средствам доставки информации со стороны Заказчика
+                                    </legend>
+                                    <label for="">
+										<span>
+											ФИО
+										</span>
+										<input  name="FIO" type="text" placeholder="Фамилия Имя Отчество">
+									</label>
+                                    <label for="">
+										<span>
+											Телефон
+										</span>
+										<input name="tel" type="text" placeholder="(812) XXX XXXX ">
+									</label> <label for="">
+										<span>
+											Моб. Телефон
+										</span>
+										<input  name="cell_p" type="text" placeholder="(812) XXX XXXX ">
+									</label> <label for="">
+										<span>
+											e-mail: 
+										</span>
+										<input  name="email_zz" type="text" placeholder="xxxxxx@xxxxx.xx">
+									</label> <label for="">
+										<span>
+											Другие средства связи:
+										</span>
+										<input  name="an_comm" type="text" placeholder="">
+									</label>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>
+                                        Информация верна и согласована представителем Заказчика
+                                    </legend>
+                                    <label for="">
+										<span>
+											Дата согласования
+										</span>
+										<input  name="date" type="date">
+									</label>
+                                    <label for="">
+										<span>
+											ФИО
+										</span>
+										<input  name="FIO_1" type="text" placeholder="Фамилия Имя Отчество">
+									</label> <label for="">
+										<span>
+											Телефон
+										</span>
+										<input  name="tel_1" type="text" placeholder="(812) XXX XXXX">
+									</label> <label for="">
+										<span>
+											Моб. Телефон
+										</span>
+										<input name="cell_p_2" type="text" placeholder="(812) XXX XXXX">
+									</label>
+                                </fieldset>
+                            </fieldset>
+                            <p>
+                                <input type="checkbox" id="politics" onclick="check();" value="" autocomplete="off" /> Нажимая на кнопку "Отправить заказ", я даю <a href="ссылка на страницу согласия">согласие на обработку персональных данных.</a>
+                            </p>
+                            <input type="submit" name="submit" class="submit" disabled="" value="Отправить" />
+                        </form>
+                        <!-- Кнопка он/оф -->
+                        <script>
+                            function check() {
+                                var submit = document.getElementsByName('submit')[0];
+                                if (document.getElementById('politics').checked)
+                                    submit.disabled = '';
+                                else
+                                    submit.disabled = 'disabled';
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ФУТЕР -->
+        <footer id="foot-sec">
+            <div class="footerdivide">
+            </div>
+            <div class="container ">
+                <div class="row">
+                    <div class="text-center color-white col-sm-12 col-lg-12">
+                        <p>
+                            © Design by 46 element
+                        </p>
+                    </div>
+                </div>
+        </footer>
+        <!-- javascript
+    ================================================== -->
+        <!-- Размещается в конце документа, чтобы страница загружалась быстрее -->
+        <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.scrollTo-1.4.6-min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.bxslider.min.js"></script>
+        <script src="assets/js/jquery.placeholder.js"></script>
+        <script src="assets/js/modernizr.custom.js"></script>
+        <script src="assets/js/toucheffects.js"></script>
+        <script src="assets/js/animations.js"></script>
+        <script src="assets/js/init.js"></script>
+</body>
+
+</html>
