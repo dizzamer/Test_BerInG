@@ -2072,6 +2072,10 @@ ul.social-icons li a:hover {
     .navbar-ex1-collapse {
         height: 0px;
     }
+    .navbar .nav>li>a {
+        height: 70px;
+        line-height: 65px;
+    }
 }
 
 
